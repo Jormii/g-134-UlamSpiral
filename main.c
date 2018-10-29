@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h> // For time measuring
 
 /**
  * Constants
@@ -62,8 +63,17 @@ static char is_prime(int number)
 	int limit = number/2;
 	int n_divisors = 0;
 
+	if (number == 2 || number == 3 || number == 5)
+	{
+		return PRIME;
+	}
+	else if (number == 1 || (number % 2) == 0 || (number % 5) == 0)
+	{
+		return NOT_PRIME;
+	}
+
 	printf("Checking if %d is prime\n", number);
-	for (int n = 1; n <= limit; n++)
+	for (int n = 3; n <= limit; n++)
 	{
 		if ((number % n) == 0)
 		{
@@ -71,7 +81,7 @@ static char is_prime(int number)
 			n_divisors++;
 		}
 	}
-	return n_divisors == PRIME;
+	return n_divisors == 0;
 }
 
 static void print_grid(const char grid[], int length)
@@ -223,7 +233,12 @@ int main(int argc, const char *argv[])
 	printf("Length: %d\n", length);
 	printf("Grid size: %d\n\n", size);
 
+	clock_t start = clock();
 	draw_ulam_spiral(length);
+	clock_t end = clock();
+
+	double time_consumed = ((double)(end - start)) / CLOCKS_PER_SEC;
+	printf("\nTime consumed: %f\n", time_consumed);
 
 	return 0;
 }
