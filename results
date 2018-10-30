@@ -1,149 +1,367 @@
 [PROPERTIES]
 	Iteration 0
-	X index: 1
-	Y index: 1
+	X index: 2
+	Y index: 2
 	Step: 1
 	Steps taken this lap: 0
 	Direction trigger: 1
 	Step trigger: 2
 	Direction: 2
-1 at position (1, 1) is prime: 0
+1 at position (2, 2) is prime: 0
 Current direction: 2
-Next position: (1, 2)
+Next position: (2, 3)
 Iteration and step counter increase
 
 [PROPERTIES]
 	Iteration 1
-	X index: 1
-	Y index: 2
+	X index: 2
+	Y index: 3
 	Step: 1
 	Steps taken this lap: 1
 	Direction trigger: 1
 	Step trigger: 2
 	Direction: 2
-Checking if 2 is prime
-2 at position (1, 2) is prime: 1
+2 at position (2, 3) is prime: 1
 Current direction: 2
 Direction trigger. Changing direction. New direction: 3
-Next position: (2, 2)
+Next position: (3, 3)
 Iteration and step counter increase
 
 [PROPERTIES]
 	Iteration 2
-	X index: 2
-	Y index: 2
+	X index: 3
+	Y index: 3
 	Step: 1
 	Steps taken this lap: 2
 	Direction trigger: 1
 	Step trigger: 2
 	Direction: 3
-Checking if 3 is prime
-3 at position (2, 2) is prime: 1
+3 at position (3, 3) is prime: 1
 Current direction: 3
 Step trigger. Changing direction. New direction: 0
 Reseting step counter (0), direction trigger (2) and step_trigger(4)
-Next position: (2, 1)
+Next position: (3, 2)
 Iteration and step counter increase
 
 [PROPERTIES]
 	Iteration 3
-	X index: 2
-	Y index: 1
+	X index: 3
+	Y index: 2
 	Step: 2
 	Steps taken this lap: 1
 	Direction trigger: 2
 	Step trigger: 4
 	Direction: 0
-Checking if 4 is prime
-	2 is divisor of 4
-4 at position (2, 1) is prime: 0
+4 at position (3, 2) is prime: 0
 Current direction: 0
-Next position: (2, 0)
+Next position: (3, 1)
 Iteration and step counter increase
 
 [PROPERTIES]
 	Iteration 4
-	X index: 2
-	Y index: 0
+	X index: 3
+	Y index: 1
 	Step: 2
 	Steps taken this lap: 2
 	Direction trigger: 2
 	Step trigger: 4
 	Direction: 0
-Checking if 5 is prime
-5 at position (2, 0) is prime: 1
+5 at position (3, 1) is prime: 1
 Current direction: 0
 Direction trigger. Changing direction. New direction: 1
-Next position: (1, 0)
+Next position: (2, 1)
 Iteration and step counter increase
 
 [PROPERTIES]
 	Iteration 5
-	X index: 1
-	Y index: 0
+	X index: 2
+	Y index: 1
 	Step: 2
 	Steps taken this lap: 3
 	Direction trigger: 2
 	Step trigger: 4
 	Direction: 1
-Checking if 6 is prime
-	2 is divisor of 6
-	3 is divisor of 6
-6 at position (1, 0) is prime: 0
+6 at position (2, 1) is prime: 0
 Current direction: 1
-Next position: (0, 0)
+Next position: (1, 1)
 Iteration and step counter increase
 
 [PROPERTIES]
 	Iteration 6
-	X index: 0
-	Y index: 0
+	X index: 1
+	Y index: 1
 	Step: 2
 	Steps taken this lap: 4
 	Direction trigger: 2
 	Step trigger: 4
 	Direction: 1
-Checking if 7 is prime
-7 at position (0, 0) is prime: 1
+7 at position (1, 1) is prime: 1
 Current direction: 1
 Step trigger. Changing direction. New direction: 2
 Reseting step counter (0), direction trigger (3) and step_trigger(6)
-Next position: (0, 1)
+Next position: (1, 2)
 Iteration and step counter increase
 
 [PROPERTIES]
 	Iteration 7
-	X index: 0
-	Y index: 1
+	X index: 1
+	Y index: 2
 	Step: 3
 	Steps taken this lap: 1
 	Direction trigger: 3
 	Step trigger: 6
 	Direction: 2
-Checking if 8 is prime
-	2 is divisor of 8
-	4 is divisor of 8
-8 at position (0, 1) is prime: 0
+8 at position (1, 2) is prime: 0
 Current direction: 2
-Next position: (0, 2)
+Next position: (1, 3)
 Iteration and step counter increase
 
 [PROPERTIES]
 	Iteration 8
-	X index: 0
-	Y index: 2
+	X index: 1
+	Y index: 3
 	Step: 3
 	Steps taken this lap: 2
 	Direction trigger: 3
 	Step trigger: 6
 	Direction: 2
-Checking if 9 is prime
-	3 is divisor of 9
-9 at position (0, 2) is prime: 0
+9 at position (1, 3) is prime: 0
+Current direction: 2
+Next position: (1, 4)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 9
+	X index: 1
+	Y index: 4
+	Step: 3
+	Steps taken this lap: 3
+	Direction trigger: 3
+	Step trigger: 6
+	Direction: 2
+10 at position (1, 4) is prime: 0
+Current direction: 2
+Direction trigger. Changing direction. New direction: 3
+Next position: (2, 4)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 10
+	X index: 2
+	Y index: 4
+	Step: 3
+	Steps taken this lap: 4
+	Direction trigger: 3
+	Step trigger: 6
+	Direction: 3
+11 at position (2, 4) is prime: 1
+Current direction: 3
+Next position: (3, 4)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 11
+	X index: 3
+	Y index: 4
+	Step: 3
+	Steps taken this lap: 5
+	Direction trigger: 3
+	Step trigger: 6
+	Direction: 3
+12 at position (3, 4) is prime: 0
+Current direction: 3
+Next position: (4, 4)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 12
+	X index: 4
+	Y index: 4
+	Step: 3
+	Steps taken this lap: 6
+	Direction trigger: 3
+	Step trigger: 6
+	Direction: 3
+13 at position (4, 4) is prime: 1
+Current direction: 3
+Step trigger. Changing direction. New direction: 0
+Reseting step counter (0), direction trigger (4) and step_trigger(8)
+Next position: (4, 3)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 13
+	X index: 4
+	Y index: 3
+	Step: 4
+	Steps taken this lap: 1
+	Direction trigger: 4
+	Step trigger: 8
+	Direction: 0
+14 at position (4, 3) is prime: 0
+Current direction: 0
+Next position: (4, 2)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 14
+	X index: 4
+	Y index: 2
+	Step: 4
+	Steps taken this lap: 2
+	Direction trigger: 4
+	Step trigger: 8
+	Direction: 0
+15 at position (4, 2) is prime: 0
+Current direction: 0
+Next position: (4, 1)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 15
+	X index: 4
+	Y index: 1
+	Step: 4
+	Steps taken this lap: 3
+	Direction trigger: 4
+	Step trigger: 8
+	Direction: 0
+16 at position (4, 1) is prime: 0
+Current direction: 0
+Next position: (4, 0)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 16
+	X index: 4
+	Y index: 0
+	Step: 4
+	Steps taken this lap: 4
+	Direction trigger: 4
+	Step trigger: 8
+	Direction: 0
+17 at position (4, 0) is prime: 1
+Current direction: 0
+Direction trigger. Changing direction. New direction: 1
+Next position: (3, 0)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 17
+	X index: 3
+	Y index: 0
+	Step: 4
+	Steps taken this lap: 5
+	Direction trigger: 4
+	Step trigger: 8
+	Direction: 1
+18 at position (3, 0) is prime: 0
+Current direction: 1
+Next position: (2, 0)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 18
+	X index: 2
+	Y index: 0
+	Step: 4
+	Steps taken this lap: 6
+	Direction trigger: 4
+	Step trigger: 8
+	Direction: 1
+19 at position (2, 0) is prime: 1
+Current direction: 1
+Next position: (1, 0)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 19
+	X index: 1
+	Y index: 0
+	Step: 4
+	Steps taken this lap: 7
+	Direction trigger: 4
+	Step trigger: 8
+	Direction: 1
+20 at position (1, 0) is prime: 0
+Current direction: 1
+Next position: (0, 0)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 20
+	X index: 0
+	Y index: 0
+	Step: 4
+	Steps taken this lap: 8
+	Direction trigger: 4
+	Step trigger: 8
+	Direction: 1
+21 at position (0, 0) is prime: 0
+Current direction: 1
+Step trigger. Changing direction. New direction: 2
+Reseting step counter (0), direction trigger (5) and step_trigger(10)
+Next position: (0, 1)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 21
+	X index: 0
+	Y index: 1
+	Step: 5
+	Steps taken this lap: 1
+	Direction trigger: 5
+	Step trigger: 10
+	Direction: 2
+22 at position (0, 1) is prime: 0
+Current direction: 2
+Next position: (0, 2)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 22
+	X index: 0
+	Y index: 2
+	Step: 5
+	Steps taken this lap: 2
+	Direction trigger: 5
+	Step trigger: 10
+	Direction: 2
+23 at position (0, 2) is prime: 1
 Current direction: 2
 Next position: (0, 3)
 Iteration and step counter increase
 
-+-+
--#-
--++
+[PROPERTIES]
+	Iteration 23
+	X index: 0
+	Y index: 3
+	Step: 5
+	Steps taken this lap: 3
+	Direction trigger: 5
+	Step trigger: 10
+	Direction: 2
+24 at position (0, 3) is prime: 0
+Current direction: 2
+Next position: (0, 4)
+Iteration and step counter increase
+
+[PROPERTIES]
+	Iteration 24
+	X index: 0
+	Y index: 4
+	Step: 5
+	Steps taken this lap: 4
+	Direction trigger: 5
+	Step trigger: 10
+	Direction: 2
+25 at position (0, 4) is prime: 0
+Current direction: 2
+Next position: (0, 5)
+Iteration and step counter increase
+
+--+-+
+-+-+-
++-#--
+--++-
+--+-+

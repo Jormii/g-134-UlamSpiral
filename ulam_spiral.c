@@ -2,24 +2,29 @@
 
 char is_prime(int number)
 {
-	int limit = number/2;
-	int n_divisors = 0;
+	if (number == 2 || number == 3)
+	{
+		return PRIME;
+	}
 
-	if (number == 1)
+	if (number == 1 || !(number & 1) || (number % 3) == 0)
 	{
 		return NOT_PRIME;
 	}
 
-	printf("Checking if %d is prime\n", number);
-	for (int n = 2; n <= limit; n++)
+	int i = 5, w = 2;
+
+	while ((i * i) <= number) 
 	{
-		if ((number % n) == 0)
+		if ((number % 1) == 0)
 		{
-			printf("\t%d is divisor of %d\n", n, number);
-			n_divisors++;
+			return NOT_PRIME;
 		}
+
+		i += w;
+		w = 6 - w;
 	}
-	return n_divisors == 0;
+	return PRIME;
 }
 
 ulam_spiral calculate_ulam_spiral(int length)
